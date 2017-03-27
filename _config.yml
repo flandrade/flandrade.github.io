@@ -1,0 +1,23 @@
+# Site settings
+title:         Fernanda Andrade
+author:        Fernanda Andrade
+description:   "Fernanda"
+url:           "http://ferandrade.com/"
+date_format:   "%b %-d, %Y"
+timezone:      America/Quito
+baseurl:       ""
+permalink:     /blog/:year/:month/:title.html
+paginate_path: "/blog/page:num"
+
+# Social icons
+github_username: flandrade
+twitter_username: feru
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
