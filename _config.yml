@@ -19,5 +19,6 @@ theme: minima
 gems:
   - jekyll-feed
 exclude:
+  - vendor
   - Gemfile
   - Gemfile.lock

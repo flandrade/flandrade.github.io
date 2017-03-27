@@ -1,0 +1,11 @@
+machine:
+
+  environment:
+    NOKOGIRI_USE_SYSTEM_LIBRARIES: true
+
+test:
+
+  override:
+    - bundle exec jekyll build
+    - bundle exec htmlproofer _site/ --check-html
+    
