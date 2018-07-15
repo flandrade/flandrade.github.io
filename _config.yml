@@ -16,7 +16,7 @@ twitter_username: feru
 # Build settings
 markdown: kramdown
 theme: minima
-gems:
+config:
   - jekyll-feed
 exclude:
   - vendor
