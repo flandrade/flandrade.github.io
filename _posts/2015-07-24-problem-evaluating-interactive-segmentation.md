@@ -23,11 +23,11 @@ Some approaches have been proposed to tackle this problem, but they all present 
 
 ### Datasets
 
-Even though the [Berkeley segmentation dataset](http://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) and benchmark are the extended evaluation criteria for automatic segmentation, it is not possible to identify objects and background from its ground-truth data as the dataset does not include a semantic interpretation.[^2] Instead, there are a couple of public datasets that facilitate comparison, but they do not provide user inputs required by the algorithms in order to get reproducible results:
+Even though the [Berkeley segmentation dataset](https://www.eecs.berkeley.edu/Research/Projects/CS/vision/grouping/resources.html) and benchmark are the extended evaluation criteria for automatic segmentation, it is not possible to identify objects and background from its ground-truth data as the dataset does not include a semantic interpretation.[^2] Instead, there are a couple of public datasets that facilitate comparison, but they do not provide user inputs required by the algorithms in order to get reproducible results:
 
-* __Weizmann segmentation database:__ [it](http://www.wisdom.weizmann.ac.il/~vision/Seg_Evaluation_DB/index.html) provides a suitable single object dataset for evaluation of interactive segmentation algorithms, but it does not provide user inputs.[^3]
+* __Weizmann segmentation database:__ [it](https://www.wisdom.weizmann.ac.il/~vision/Seg_Evaluation_DB/index.html) provides a suitable single object dataset for evaluation of interactive segmentation algorithms, but it does not provide user inputs.[^3]
 
-* __Grabcut database:__ [this dataset](http://research.microsoft.com/en-us/um/cambridge/projects/visionimagevideoediting/segmentation/grabcut.htm) contains 50 images, ground-truth data and user specified _trimaps_. However, these _trimaps_ are neither optimal nor realistic inputs because they contain richer information, such as shape, and most of the pixels are previously labeled. Moreover, it would be difficult for users to create such _trimaps_.[^4]
+* __Grabcut database:__ [this dataset](https://research.microsoft.com/en-us/um/cambridge/projects/visionimagevideoediting/segmentation/grabcut.htm) contains 50 images, ground-truth data and user specified _trimaps_. However, these _trimaps_ are neither optimal nor realistic inputs because they contain richer information, such as shape, and most of the pixels are previously labeled. Moreover, it would be difficult for users to create such _trimaps_.[^4]
 
 ### User-experiments
 
@@ -39,7 +39,7 @@ Automated evaluations replace users with algorithms that emulate their behavior.
 
 ## My proposed approach
 
-In summary, these evaluation methods should have considered user intervention to allow reproduction and comparison of results for further studies. For this reason, I introduced a novel seed-based user input dataset that extends the well-known GrabCut dataset and the [Geodesic Star convexity dataset](http://www.robots.ox.ac.uk/~vgg/research/iseg/#Dataset). For more information, check the [second note]({% post_url 2015-07-25-interactive-segmentation-dataset %}).
+In summary, these evaluation methods should have considered user intervention to allow reproduction and comparison of results for further studies. For this reason, I introduced a novel seed-based user input dataset that extends the well-known GrabCut dataset and the [Geodesic Star convexity dataset](https://www.robots.ox.ac.uk/~vgg/research/iseg/#Dataset). For more information, check the [second note]({% post_url 2015-07-25-interactive-segmentation-dataset %}).
 
 __NOTE:__ _This note is the first of two notes. See the [presentation entry]({% post_url 2015-07-24-evaluation-interactive-image-segmentation %}) for more information._
 

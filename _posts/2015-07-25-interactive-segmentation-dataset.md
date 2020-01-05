@@ -11,7 +11,7 @@ This dataset consists of 50 images, ground-truth data and two sets of _scribbles
 
 <img src="{{ site.url }}/assets/images/segmentation-01.jpg" width="49%" alt="Segmentation image"/> <img src="{{ site.url }}/assets/images/segmentation-08.jpg" width="49%" alt="Segmentation image"/>
 
-For this compilation, the publicly available [GrabCut](http://research.microsoft.com/en-us/um/cambridge/projects/visionimagevideoediting/segmentation/grabcut.htm) and [Geodesic Star convexity dataset](http://www.robots.ox.ac.uk/~vgg/research/iseg/#Dataset) were taken as starting point. Original images and ground-truth data are from the GrabCut database.
+For this compilation, the publicly available [GrabCut](https://research.microsoft.com/en-us/um/cambridge/projects/visionimagevideoediting/segmentation/grabcut.htm) and [Geodesic Star convexity dataset](https://www.robots.ox.ac.uk/~vgg/research/iseg/#Dataset) were taken as starting point. Original images and ground-truth data are from the GrabCut database.
 
 <img src="{{ site.url }}/assets/images/segmentation-05.jpg" width="49%" alt="Segmentation image"/> <img src="{{ site.url }}/assets/images/segmentation-06.jpg" width="49%" alt="Segmentation image"/>
 
