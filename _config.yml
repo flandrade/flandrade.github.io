@@ -1,8 +1,8 @@
 # Site settings
 title:       Fernanda Andrade
-email:       flandradeg@gmail.com
+email:
 author:      Fernanda Andrade
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+description: "Fernanda Andrade's personal blog. Developer & web enthusiast."
 baseurl:     ""
 url:         "https://ferandrade.com"
 date_format: "%b %-d, %Y"
