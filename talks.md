@@ -5,7 +5,7 @@ permalink: /talks/
 tags: talks
 ---
 
-I'm interested in speaking about Functional Programming, TypeScript, JavaScript, React and management.
+I'm interested in speaking about functional programming, TypeScript, JavaScript, React and management.
 
 ### TSConf 2019 (Seattle, WA)
 *Don't Break the Contract: Keep Consistency with Full Stack Type Safety*

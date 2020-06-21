@@ -1,9 +1,9 @@
-.social-title{
+.social-title {
   border-bottom: 5px solid $page-break;
   padding: 3px 10px;
 }
 
-.post .social-icons{
+.post .social-icons {
   text-align: center;
   padding: 0;
   color: #333;
@@ -16,59 +16,47 @@
   background-image: none;
 }
 
+.me {
+  display: flex;
+  margin-top: 10%;
+  min-height: 100% !important;
+}
+
 .presentation  {
-  h1, h2, h3, h4 {
-    margin-top: 0;
-    margin-bottom: 0.4rem;
-    line-height: 1.6;
-  }
+  margin: auto;
+  width: 100%;
+  color: $dark-gray;
 
   h1, h2, h3 {
     font-family: $heading-font-family;
   }
 
-  h4 {
-    font-family: $font-family;
-    font-weight: 500;
-
-    color: #333;
+  h2 {
+    font-weight: 800;
+    font-size: $h1;
+    letter-spacing: -0.01em;
+    line-height: 1.1;
+    margin: 0;
   }
 
   h3 {
-    font-size: 1em;
-    font-weight: 700;
-    text-transform: uppercase;
+    font-weight: 500;
     letter-spacing: 0.16em;
-    margin-bottom: 24px;
-
-    color: #333;
   }
-}
 
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
-}
+  h4 {
+    font-family: $font-family;
+    font-weight: 500;
+    color: $mid-gray;
+  }
 
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
+  .social-icons {
+    font-size: $h1;
+    letter-spacing: -0.1em;
+  }
 
-.column-avatar {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 0 0 40%;
-}
-
-@media (max-width:760px) {
-  .row {
-    flex-direction: column;
+  .social-icons-left {
+    text-align: left;
   }
 }
 
@@ -108,16 +96,6 @@ hr.aborder {
   margin-bottom: 18px;
   margin-top: 18px;
   border: 0;
-}
-
-.me {
-  margin-top: 5em;
-}
-
-@media (max-width:760px) {
-  .me {
-    margin-top: 0em;
-  }
 }
 
 .site-wrap {

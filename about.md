@@ -5,8 +5,6 @@ permalink: /about/
 tags: about
 ---
 
-Software developer with meticulous attention to detail, communication and a love for functional programming. I'm passionate about clean, maintainable and robust code.
+I'm a full-stack developer with meticulous attention to detail, communication and a love for functional programming. I'm passionate about pure functions and statically-typed code.
 
-As a developer, I enjoy working across disciplines to challenge the boundaries between technology and humanities. I firmly believe they both elevate each other, and it’s undeniable that understanding different perspectives is important to address common issues.
-
-I’m an avid reader and hiking enthusiast.
+Find me on [Github](https://github.com/flandrade), [Twitter](https://twitter.com/feru) and [LinkedIn](https://www.linkedin.com/in/ferandrade/).
