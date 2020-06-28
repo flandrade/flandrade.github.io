@@ -3,28 +3,16 @@
   padding: 3px 10px;
 }
 
-.post .social-icons {
-  text-align: center;
-  padding: 0;
-  color: #333;
-}
-
-.post .social-icons a {
-  text-decoration: none;
-  color: #333;
-  text-shadow: none;
-  background-image: none;
-}
-
 .me {
-  display: flex;
-  margin-top: 10%;
   min-height: 100% !important;
+
+  p {
+    margin: 1rem 0;
+  }
 }
 
 .presentation  {
   margin: auto;
-  width: 100%;
   color: $dark-gray;
 
   h1, h2, h3 {
@@ -52,27 +40,22 @@
 
   .social-icons {
     font-size: $h1;
+    padding: 0;
     letter-spacing: -0.1em;
-  }
-
-  .social-icons-left {
-    text-align: left;
   }
 }
 
 .aborder {
-  padding-bottom: 18px;
   position: relative;
   text-align: left;
 }
 
 .ainverted {
-  color: #000;
-  background: #fff;
+  color: $dark-gray-2;
 }
 
 .aborder.ainverted:after {
-  background: #333;;
+  background: $dark-gray-2;
 }
 
 .aborder:after {
@@ -85,17 +68,10 @@
   position: absolute;
   width: 52px;
   height: 5px;
-  background: #000;
+  background: $dark-gray-2;
   left: 0%;
   bottom: 0;
   margin-left: 0;
-}
-
-hr.aborder {
-  display: block;
-  margin-bottom: 18px;
-  margin-top: 18px;
-  border: 0;
 }
 
 .site-wrap {
@@ -103,4 +79,17 @@ hr.aborder {
   -webkit-flex: 0;
       -ms-flex: 0 1 auto;
           flex: 0 1 auto;
+}
+
+.site-header {
+  background: $header-background;
+
+  .social-icons a {
+    font-size: $h3;
+  }
+
+  .me .social-icons a {
+    font-size: $h1 !important;
+    color: $dark-gray-2;
+  }
 }

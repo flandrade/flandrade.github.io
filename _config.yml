@@ -2,7 +2,7 @@
 title:       Fernanda Andrade
 email:
 author:      Fernanda Andrade
-description: "Fernanda Andrade. Software developer with a love for functional programming."
+description: "Fernanda Andrade. Full-stack developer with a love for functional programming."
 baseurl:     ""
 url:         "https://ferandrade.com"
 date_format: "%b %-d, %Y"
@@ -25,7 +25,7 @@ bing_verification:
 animated:             false
 show_related_posts:   false
 show_post_footers:    false
-show_footer:          false
+show_footer:          true
 show_social_icons:    true
 ajaxify_contact_form: false
 enable_mathjax: false
