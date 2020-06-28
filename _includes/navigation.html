@@ -1,11 +1,7 @@
 {% assign default_paths = site.pages | map: "path" %}
 {% assign page_paths = site.header_pages | default: default_paths %}
 
-{% if page.tags and page.tags == 'blog' %}
-    <a class="nav-active" href="/blog/">{{ page.title }}</a>
-{% else %}
-    <a class="nav-link" href="/blog/">Blog</a>
-{% endif %}
+<a class="nav-link" href="/">Blog</a>
 
 {% for path in page_paths %}
 
