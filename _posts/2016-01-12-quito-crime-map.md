@@ -2,7 +2,7 @@
 layout:     post
 title:      Quito Crime Map
 date:       2016-01-12 19:52:32
-summary:    An interactive crime map that shows the crime rate of Quito as reported by Policía Nacional del Ecuador.
+summary:    An interactive crime map of Quito that shows the crime rate by category and year as reported by Policía Nacional del Ecuador.
 categories: projects
 tags:       [maps, english, geojson, project, quito]
 ---
