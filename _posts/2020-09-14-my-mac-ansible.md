@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2020-09-06 21:55:00
+date: 2020-09-14 09:00:00
 title: My MacOS Setup with Ansible
 summary:
   A set of Ansible playbooks to setup, configure, and maintain my Mac. These playbooks take most of
