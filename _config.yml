@@ -9,14 +9,14 @@ date_format: "%b %-d, %Y"
 permalink:   /blog/:categories/:year/:month/:day/:title.html
 paginate_path: "/blog/page:num"
 header_pages:
- - talks.md
- - about.md
+  - talks.md
+  - about.md
 
 # Google services
 google_verification:
 # Use either direct GA implementation or set up GTM account
 # - using both will skew your data (leave blank to not use at all)
-google_analytics:
+google_analytics: UA-1441446-5
 google_tag_manager:
 # Bing services
 bing_verification:

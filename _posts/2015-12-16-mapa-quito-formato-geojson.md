@@ -7,6 +7,7 @@ summary:
   información de los portales oficiales "Datos Abiertos" y "Ecuador en cifras".
 categories: projects
 tags: [maps, spanish, geojson, project, quito]
+published: false
 ---
 
 Comparto a continuación dos mapas del cantón Quito en formato GeoJSON:
