@@ -10,10 +10,10 @@ tags: [english, cli, project, harvest, typescript]
 ---
 
 <img
-  src="https://raw.githubusercontent.com/flandrade/my-mac/master/media/ansible-256.png?token=ABTZYEODR7AZUVHRN5JN4US7KVV44"
-  width="256px"
+ src="https://raw.githubusercontent.com/flandrade/my-mac/master/media/ansible-256.png?token=ABTZYEODR7AZUVHRN5JN4US7KVV44"
   alt="Ansible logo"
   title="Ansible logo"
+  style="width: 30%; min-width: 96px"
   align="right"
 />
 

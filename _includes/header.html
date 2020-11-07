@@ -1,7 +1,9 @@
 <header class="site-header px2 px-responsive">
   <div class="mt2 wrap">
     <div class="measure">
-      <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
+      {% if page.tags and page.tags != 'index' %}
+        <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
+      {% endif %}
       <nav class="site-nav">
         {% include navigation.html %}
       </nav>
@@ -17,13 +19,13 @@
       {% endif %}
 
       {% if page.tags and page.tags == 'index' %}
-      <div class="me mb3 mt4 left-align">
+      <div class="me mb3 mt1 left-align">
         <div class="presentation">
           <h3 class="aborder ainverted py2">HELLO, I'M </h3>
           <h2>FERNANDA ANDRADE</h2>
-          <p>I’m a full-stack developer. I like functional programming and static types.‍</p>
+          <p class="mt2 mb0">I’m a full-stack developer. I like functional programming and static types.‍</p>
           {% if site.show_social_icons %}
-          <div class="social-icons">
+          <div class="social-icons mt2">
             {% include social_links.html %}
           </div>
           <div class="clearfix"></div>
