@@ -14,15 +14,14 @@ Career ladders provide clarity and transparency to organizations. It's clear tha
 key to promote equality and inclusion. Everybody, not just women and minorities, benefits from clear
 evaluation and promotion procedures.
 
-Creating a culture of equality is everyone's responsibility. As someone in a position of leadership,
-creating a clear ladder will pave the way in that direction and will help reduce ambiguity, anxiety,
-and frustration in your team.
+Creating a culture of equality is everyone's responsibility. A career ladder will pave the way in that
+direction and will help reduce ambiguity, anxiety, and frustration in your team.
 
 I found myself contributing to that effort recently, and it's clear
-[this is a formidable task](https://dresscode.renttherunway.com/blog/ladder).
-For this reason, I'm sharing a list of publicly available ladders that might be a good starting for
-your organization. Keep in mind that although these might be a good source of inspiration, they
-might not be the best fit. Instead, you might want to work with your team to articulate what you
+[this is a challenging task](https://dresscode.renttherunway.com/blog/ladder).
+For this reason, I'm sharing a list of publicly available ladders that might be a good starting point
+for your organization. Keep in mind that although these might be a good source of inspiration,
+they might not be the best fit. Instead, you might want to work with your team to articulate what you
 both expect.
 
 - [progression.fyi:] A collection of open source frameworks for helping designers and engineers.
