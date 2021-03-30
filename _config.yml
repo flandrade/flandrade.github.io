@@ -6,7 +6,7 @@ description: "Fernanda Andrade. Full-stack developer interested in functional pr
 baseurl:     ""
 url:         "https://ferandrade.com"
 date_format: "%b %-d, %Y"
-permalink:   /blog/:categories/:year/:month/:day/:title.html
+permalink:   /blog/:title/
 paginate_path: "/blog/page:num"
 header_pages:
   - talks.md
@@ -102,7 +102,6 @@ text:
 markdown:     kramdown
 redcarpet:
   extensions: ['smart', 'tables', 'with_toc_data']
-permalink:    pretty
 paginate:     25
 sass:
   style: compressed
