@@ -2,7 +2,7 @@
   <div class="mt2 wrap">
     <div class="measure">
       {% if page.tags and page.tags != 'index' %}
-        <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
+      <a href="{{ "/" | relative_url }}" class="site-title">{{ site.title }}</a>
       {% endif %}
       <nav class="site-nav">
         {% include navigation.html %}
@@ -10,22 +10,22 @@
       <div class="clearfix"></div>
 
       {% if site.show_social_icons and page.tags and page.tags != 'index' %}
-        <div class="social-icons">
-          <div class="social-icons-right">
-            {% include social_links.html %}
-          </div>
+      <div class="social-icons">
+        <div class="social-icons-right">
+          {% include social_links.html %}
         </div>
-        <div class="clearfix"></div>
+      </div>
+      <div class="clearfix"></div>
       {% endif %}
 
       {% if page.tags and page.tags == 'index' %}
-      <div class="me mb3 mt1 left-align">
+      <div class="me mb1 mt1 left-align">
         <div class="presentation">
-          <h3 class="aborder ainverted py2">HELLO, I'M </h3>
-          <h2>FERNANDA ANDRADE</h2>
-          <p class="mt2 mb0">I’m a full-stack developer. I like functional programming and static types.‍</p>
+          <h3 class="aborder ainverted py2">HOLA, I'M </h3>
+          <h1 class="mt0">FERNANDA ANDRADE</h1>
+          <p class="mt0">I’m a full-stack developer curious about how we can build better software. I like functional programming and static types.‍</p>
           {% if site.show_social_icons %}
-          <div class="social-icons mt2">
+          <div class="social-icons">
             {% include social_links.html %}
           </div>
           <div class="clearfix"></div>

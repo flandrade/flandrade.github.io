@@ -1,6 +1,6 @@
 .social-title {
-  border-bottom: 0.2em solid $page-break;
-  padding: 0.1em 0.6em;
+  border-bottom: 0.1em solid $page-break;
+  padding: 0.05em 0.3em;
 }
 
 .me {
@@ -16,15 +16,14 @@
   }
 
   h2 {
-    font-weight: 800;
+    font-weight: 900;
     font-size: $h1;
     letter-spacing: -0.01em;
-    line-height: 1.1em;
     margin: 0;
   }
 
   h3 {
-    font-weight: 500;
+    font-weight: 400;
     letter-spacing: 0.16em;
   }
 
@@ -33,12 +32,6 @@
     font-weight: 500;
     color: $mid-gray;
   }
-
-  .social-icons {
-    font-size: $h2;
-    padding: 0;
-    letter-spacing: -0.1em;
-  }
 }
 
 .aborder {
@@ -46,12 +39,8 @@
   text-align: left;
 }
 
-.ainverted {
-  color: $dark-gray-2;
-}
-
 .aborder.ainverted:after {
-  background: $dark-gray-2;
+  background: $page-break;
 }
 
 .aborder:after {
@@ -85,7 +74,7 @@
   }
 
   .me .social-icons a {
-    font-size: $h1 !important;
+    font-size: $h2 !important;
     color: $dark-gray-2;
   }
 }
