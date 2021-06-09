@@ -6,6 +6,8 @@ summary:
   An interactive crime map of Quito that shows the crime rate by category and year as reported by
   Policía Nacional del Ecuador. Data was collected from "Datos Abiertos", the official government
   site for open government.
+meta_description:
+  An interactive crime map of Quito that shows the crime rate by category and year as reported by the police
 categories: projects
 tags: [maps, english, geojson, project, quito]
 ---

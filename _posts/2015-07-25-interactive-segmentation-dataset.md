@@ -6,6 +6,8 @@ summary:
   We present a novel seed-based user input dataset that extends the well-known GrabCut dataset and
   the Geodesic Star convexity dataset. Here, user inputs are provided by means of two sets of
   scribbles that reflect two degrees of user effort.
+meta_description:
+  Novel seed-based user input dataset that extends the well-known GrabCut dataset and the Geodesic Star convexity dataset
 categories: research
 tags: [segmentation, english, research, evaluation, dataset]
 ---

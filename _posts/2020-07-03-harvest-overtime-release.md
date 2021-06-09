@@ -5,6 +5,8 @@ title: Announcing harvest-overtime ⏰
 summary:
   Command-line interface to calculate employee's overtime with Harvest's CSV reports. This tool
   provides the information to calculate overtime pay correctly.
+meta_description:
+  Command-line interface to calculate employee's overtime with Harvest's CSV reports
 categories: projects
 tags: [english, cli, project, harvest, typescript]
 ---

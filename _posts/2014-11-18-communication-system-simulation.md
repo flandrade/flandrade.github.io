@@ -4,8 +4,10 @@ title: Communication System Simulation
 date: 2014-11-18 19:13:36
 summary:
   This program simulates a basic communication system with MATLAB. This simulation not only plots
-  BET curves, but it also calculates performance metrics such as probability of error (Pe) and bit
+  BER curves, but it also calculates performance metrics such as probability of error (Pe) and bit
   error rate (BER).
+meta_description:
+  MATLAB program that simulates a basic communication system with BER curves and performance metrics
 categories: research
 tags: [segmentation, english, research, evaluation, publication]
 ---

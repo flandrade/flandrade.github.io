@@ -5,6 +5,8 @@ title: My MacOS Setup with Ansible
 summary:
   A set of Ansible playbooks to setup, configure, and maintain my Mac. These playbooks take most of
   the effort out of configuring everything manually while keeping track of any changes.
+meta_description:
+  A set of Ansible playbooks to setup, configure, and maintain my Mac
 categories: projects
 tags: [english, cli, project, harvest, typescript]
 ---

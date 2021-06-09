@@ -6,6 +6,8 @@ summary:
   Despite some significant advances and extensive research, the selection of interactive
   segmentation algorithms is still a challenging task because people incorporate some semantic
   considerations that lead to more than one acceptable solution.
+meta_description:
+  Evaluating segmentation algorithms is a challenging task because people incorporate some semantic considerations
 categories: research
 tags: [segmentation, english, research, evaluation]
 ---

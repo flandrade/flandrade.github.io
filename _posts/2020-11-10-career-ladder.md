@@ -6,6 +6,8 @@ summary:
   Career ladders provide clarity and transparency to organizations. Everybody, not just women and
   minorities, benefits from clear evaluation and promotion procedures. Here is a list of publicly
   available career ladders that might help you to create one.
+meta_description:
+  Here is a list of publicly available career ladders that might help you to create one
 categories: teams
 tags: [english, management, teams]
 ---

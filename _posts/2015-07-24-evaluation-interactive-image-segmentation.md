@@ -9,6 +9,8 @@ summary:
   algorithms. Then, in the aim of presenting reproducible results, we introduce a novel seed-based
   user input dataset that extends the well-known GrabCut dataset. Finally, we evaluate and contrast
   four state-of-the-art interactive segmentation algorithms.
+meta_description:
+  An objective and empirical evaluation of seed-based interactive segmentation algorithms
 categories: research
 tags: [segmentation, english, research, evaluation, publication]
 ---
