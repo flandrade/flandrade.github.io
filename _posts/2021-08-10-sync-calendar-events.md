@@ -1,6 +1,6 @@
 ---
 layout: post
-date: 2021-06-18 09:00:00
+date: 2021-08-10 09:00:00
 title: What I've Learned About Syncing Calendar Events
 summary:
   Recently I've been exploring how to add events automatically to  calendars. Here you can find a
@@ -31,12 +31,17 @@ the user's authorization. I highly recommend this option if you don't need extra
 require access to the user's data (like calendar availability).
 
 I wrote a [quick guide to generate iCalendar events (.ics files)](https://gist.github.com/flandrade/394d9df95e1be2a584f267ae91505239)
-that will be added automatically to any Google or Outlook calendar. You can also find a summary in [this answer from Stack Overflow](https://stackoverflow.com/a/68042842/5924089).
+that will be added automatically to any Google or Outlook calendar through email attachments. You
+can also find a summary in [this answer from Stack Overflow](https://stackoverflow.com/a/68042842/5924089).
 
 Alternatively, if your application supports [Google OAuth](https://developers.google.com/identity/protocols/oauth2),
-you can add Google Calendar API to sync calendar events. There are two official libraries to
-implement this integration, but I found the documentation can be hard to follow. For this reason,
-I wrote a [tutorial to walk you through the process](https://gist.github.com/flandrade/a943a47e3575fb8805499e18e6b23c07)
+you can add Google Calendar API to sync calendar events. There are two official JavaScript libraries
+([google-auth-library] and [googleapis]) to implement this integration, but I found the
+documentation can be hard to follow. For this reason, I wrote a
+[tutorial to walk you through the process](https://gist.github.com/flandrade/a943a47e3575fb8805499e18e6b23c07)
 of adding an API to an existing Google Sign-In integration. In case you're using
 [react-google-login](https://github.com/anthonyjgrove/react-google-login), you might find
 [my contribution](https://github.com/anthonyjgrove/react-google-login/pull/455) helpful as well.
+
+[google-auth-library]: https://github.com/googleapis/google-auth-library-nodejs#readme
+[googleapis]: https://github.com/googleapis/google-api-nodejs-client#readme
