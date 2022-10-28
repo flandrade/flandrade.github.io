@@ -5,16 +5,27 @@ permalink: /about/
 tags: about
 ---
 
-Hi there, I'm Fernanda Andrade. I’m a full-stack developer with meticulous attention to detail,
-communication, and a love for functional programming and static types.
+I'm a software engineer curious about how we can build better software. I enjoy solving challenging
+problems with technology. Sometimes I speak at [conferences](https://ferandrade.com/talks/) and
+write articles.
 
-After having studied electronics engineering, I decided to make a career out of my interest in
-programming. I've been building web applications ever since, and I've worked on a wide variety of
-projects with various programming languages, but I'm particularly keen on Haskell and TypeScript.
+I've spent a lot of time exploring how to make complex software more correct and manageable with
+functional programming and static types. This drive has led me to deep dive into formal methods to
+build a better intuition of what it means to create more reliable software.
 
-When I’m not coding, I read and travel. I've been to Vietnam, Singapore, Cambodia, Japan, and
-numerous cities in Europe. I have logged quite a few kilometers on the Andean region, and I am
-looking forward to exploring the Pyrenees.
+I'm pursuing a Master's degree in Formal Methods at
+[UPM](https://www.fi.upm.es/?id=inicio&idioma=english), [UCM](https://informatica.ucm.es), and
+[UAM](https://www.uam.es/uam/inicio). I also work as a tech lead at Stack Builders where I lead
+teams to turn ideas into pragmatic and scalable implementations with various programming languages,
+including Haskell and TypeScript.
+
+My specialties are software testing and functional programming for web development. I’m good at
+writing expressive and reliable tests that only fail for useful reasons and leveraging type systems
+to build robust APIs that work as intended. I also like digging into obscure bugs and building
+appealing front-end apps.
+
+More importantly, I care deeply about cultivating an inclusive culture of respect that encourages
+growth. I find joy in mentoring and helping engineers' careers thrive.
 
 Find me on [Github](https://github.com/flandrade), [Twitter](https://twitter.com/feru) and
 [LinkedIn](https://www.linkedin.com/in/ferandrade/).
