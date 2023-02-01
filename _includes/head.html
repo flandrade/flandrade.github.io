@@ -43,7 +43,7 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ "/css/pixyll.css" | relative_url }}?{{ site.time | date: "%Y%m%d%H%M" }}"
     type="text/css">
-
+  <link rel="stylesheet" href="/css/syntax.css" />
   <!-- Fonts -->
   {% if site.extended_fonts %}
   <link href='//fonts.googleapis.com/css?family=Merriweather:900,900italic,400,400italic&amp;subset=latin-ext,latin'
@@ -61,9 +61,14 @@
 
   <!-- MathJax -->
   {% if site.enable_mathjax %}
-  <script type="text/javascript" async
-    src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-  </script>
+  <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.3/MathJax.js?config=TeX-MML-AM_CHTML">
+            MathJax.Hub.Config({
+                tex2jax: {
+                    inlineMath: [["$", "$"], ["\\(", "\\)"]],
+                    processEscapes: true
+                }
+            });
+        </script>
   {% endif %}
 
   <!-- Verifications -->
