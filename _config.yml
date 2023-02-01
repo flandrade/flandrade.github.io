@@ -1,12 +1,13 @@
 # Site settings
-title:       Fernanda Andrade
+title: Fernanda Andrade
 email:
-author:      Fernanda Andrade
-description: "Fernanda Andrade. Full-stack developer interested in functional programing and static types."
-baseurl:     ""
-url:         "https://ferandrade.com"
+author: Fernanda Andrade
+description:
+  "Fernanda Andrade. Full-stack developer interested in functional programing and static types."
+baseurl: ""
+url: "https://ferandrade.com"
 date_format: "%b %-d, %Y"
-permalink:   /blog/:title/
+permalink: /blog/:title/
 paginate_path: "/blog/page:num"
 header_pages:
   - talks.md
@@ -22,11 +23,11 @@ google_tag_manager:
 bing_verification:
 
 # Optional features
-animated:             false
-show_related_posts:   false
-show_post_footers:    false
-show_footer:          true
-show_social_icons:    true
+animated: false
+show_related_posts: false
+show_post_footers: false
+show_footer: true
+show_social_icons: true
 ajaxify_contact_form: false
 enable_mathjax: false
 extended_fonts: false
@@ -67,42 +68,46 @@ share_hackernews: false
 
 text:
   pagination:
-    newer: 'Newer'
-    older: 'Older'
+    newer: "Newer"
+    older: "Older"
   share_buttons:
-    text:         'Share this post!'
-    facebook:     'Share on Facebook'
-    twitter:      'Share on Twitter'
-    googleplus:   'Share on Google+'
-    linkedin:     'Share on LinkedIn'
-    digg:         'Share on Digg'
-    tumblr:       'Share on Tumblr'
-    reddit:       'Share on Reddit'
-    stumbleupon:  'Share on StumbleUpon'
-    hackernews:   'Share on Hacker News'
+    text: "Share this post!"
+    facebook: "Share on Facebook"
+    twitter: "Share on Twitter"
+    googleplus: "Share on Google+"
+    linkedin: "Share on LinkedIn"
+    digg: "Share on Digg"
+    tumblr: "Share on Tumblr"
+    reddit: "Share on Reddit"
+    stumbleupon: "Share on StumbleUpon"
+    hackernews: "Share on Hacker News"
   post:
-    updated:        'Updated'
-    minute_read:    'minute read'
-    related_posts:  'Related Posts'
+    updated: "Updated"
+    minute_read: "minute read"
+    related_posts: "Related Posts"
   index:
-    coming_soon: 'Coming soon...'
+    coming_soon: "Coming soon..."
   contact:
-    email:    'Email Address'
-    content:  'What would you like to say?'
-    subject:  'New submission!'
-    submit:   'Say Hello'
+    email: "Email Address"
+    content: "What would you like to say?"
+    subject: "New submission!"
+    submit: "Say Hello"
     ajax:
-      sending:  'sending..'
-      sent:     'Message sent!'
-      error:    'Error!'
-  thanks: 'Thanks for contacting us. We will reply as soon as possible.'
-  og_locale: 'en_US'
+      sending: "sending.."
+      sent: "Message sent!"
+      error: "Error!"
+  thanks: "Thanks for contacting us. We will reply as soon as possible."
+  og_locale: "en_US"
 
 # Build settings
-markdown:     kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 redcarpet:
-  extensions: ['smart', 'tables', 'with_toc_data']
-paginate:     25
+  extensions: ["smart", "tables", "with_toc_data"]
+paginate: 25
 sass:
   style: compressed
 plugins:
