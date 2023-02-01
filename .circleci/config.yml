@@ -5,7 +5,7 @@ jobs:
   build:
     <<: *defaults
     docker:
-      - image: circleci/ruby:2.5
+      - image: cimg/ruby:2.7
     environment:
       BUNDLE_PATH: ~/repo/vendor/bundle
     steps:
