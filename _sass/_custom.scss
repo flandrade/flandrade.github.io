@@ -71,10 +71,15 @@
 
   .social-icons a {
     font-size: $h3;
+    margin-top: 1rem;
   }
 
   .me .social-icons a {
     font-size: $h2 !important;
     color: $dark-gray-2;
   }
+}
+
+.my-name {
+  font-size: $my-name;
 }
