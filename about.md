@@ -13,11 +13,10 @@ I've spent a lot of time exploring how to make complex software more correct and
 functional programming and static types. This drive has led me to deep dive into formal methods to
 build a better intuition of what it means to create more reliable software.
 
-I'm pursuing a Master's degree in Formal Methods at
-[UPM](https://www.fi.upm.es/?id=inicio&idioma=english), [UCM](https://informatica.ucm.es), and
-[UAM](https://www.uam.es/uam/inicio). I also work as a tech lead at Stack Builders where I lead
-teams to turn ideas into pragmatic and scalable implementations with various programming languages,
-including Haskell and TypeScript.
+I studied a Master's degree in Formal Methods at
+[UPM](https://www.fi.upm.es/?id=inicio&idioma=english) and [IMDEA](https://software.imdea.org/). I
+also work as a tech lead at Stack Builders where I lead teams to turn ideas into pragmatic and
+scalable implementations with various programming languages, including Haskell and TypeScript.
 
 My expertise lies in software testing and functional programming for web development. I have a
 strong understanding of how to leverage type systems to create robust APIs and write expressive and
