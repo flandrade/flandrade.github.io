@@ -7,7 +7,7 @@ summary:
   are still in use at a certain point in a program's execution. Here is an implementation in
   Haskell.
 meta_description: Live Variable Analysis in Haskell
-categories: teams
+categories: projects
 tags: [english, programming, Haskell]
 ---
 
