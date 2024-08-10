@@ -56,16 +56,19 @@ $$
 
 Here, $U_{c,i}$ is true if the character c is the mnemonic of the i -th option.
 
-```mermaid
-graph TD
-    A[Menu Options] --> B["Option 1: Chars(1) = {U, n, d, o}"]
-    A --> C["Option 2: Chars(2) = {C, o, p, y}"]
-    A --> D["Option 3: Chars(3) = {C, o, s,t}"]
+### Example
 
-    B --> |Mnemonic: U| E["U(S,1) = True"]
-    C --> |Mnemonic: Y| F["U(O,2) = True"]
-    D --> |Mnemonic: T| G["U(E,4) = True"]
+Let's consider options "undo", "copy", "cost" which can be written as:
+
 ```
+Uu1, Un1, Ud1, Uo1
+Uc2, Uo2, Up2, Uy2
+Uc3, Uo3, Us3, Ut3
+```
+
+<p align="center">
+<img src="{{ site.url }}/assets/images/sat-01.png" width="90%" alt="diagram"/>
+</p>
 
 ### Constraints
 
@@ -176,8 +179,9 @@ theorem prover. The key components we will use are:
 The steps are as follows:
 
 - **Initialization:** The Z3 context is initialized.
-- **Parsing Options:** The menu options are parsed into mnemonic objects using parseOptions.
-- **Adding Constraints:** The constraints for unique mnemonics and character restrictions are added/
+- **Parsing Options:** The menu options are parsed into mnemonic objects using the function
+  `parseOption`.
+- **Adding Constraints:** The constraints for unique mnemonics and character restrictions are added.
 - **Solving:** The solver attempts to find a solution that satisfies all constraints.
 - **Output:** If the problem is satisfiable, the mnemonics for each option are printed.
 
