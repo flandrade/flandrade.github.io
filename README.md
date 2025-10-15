@@ -1,38 +1,58 @@
 # flandrade.github.io
+
 Personal website
 
 [![CircleCI](https://circleci.com/gh/flandrade/flandrade.github.io.svg?style=svg)](https://circleci.com/gh/flandrade/flandrade.github.io)
 
-
-Install [asdf] and [asdf-ruby] to build and install Ruby.
-
 ## 🚀 Get Started
+
+### Prerequisites
+
+Install [asdf] and [asdf-ruby] to manage Ruby versions:
+
+```bash
+# Install asdf (if not already installed)
+brew install asdf
+
+# Add asdf to your shell (add to ~/.zshrc for persistence)
+echo -e "\n. $(brew --prefix asdf)/libexec/asdf.sh" >> ~/.zshrc
+source ~/.zshrc
+
+# Install Ruby plugin
+asdf plugin add ruby
+```
+
+### Installation
 
 Clone this repository to your local drive:
 
-```
+```bash
 git clone git@github.com:flandrade/flandrade.github.io.git
 cd flandrade.github.io
 ```
 
 Install Ruby with asdf:
 
-```
-asdf install
+```bash
+asdf install ruby 3.1.4
 ```
 
-Install Jekyll and dependencies:
+Install Bundler and Jekyll dependencies:
 
-```
-gem install --user-install bundler
+```bash
+gem install bundler
 bundle install
 ```
 
-Build the site and make it available on a local server.
+### Running Locally
 
-```
+Build the site and make it available on a local server:
+
+```bash
 bundle exec jekyll serve
 ```
 
-[asdf]: https://asdf-vm.com/#/core-manage-asdf-vm
+Then open http://localhost:4000 in your browser.
+
+[asdf]: https://asdf-vm.com/
 [asdf-ruby]: https://github.com/asdf-vm/asdf-ruby
